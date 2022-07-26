@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "packageManager": "pnpm@7.6.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}
