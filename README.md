@@ -1,6 +1,6 @@
 # module-federation-repo
 
-🧩 Module Federation Monorepo Wit Vite
+🧩 Module Federation Monorepo With Vite
 
 ## Usage
 
