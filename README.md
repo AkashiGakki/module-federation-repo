@@ -1,6 +1,6 @@
 # module-federation-repo
 
-🌏 Module Federation Monorepo
+🧩 Module Federation Monorepo Wit Vite
 
 ## License
 
