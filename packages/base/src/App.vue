@@ -1,10 +1,5 @@
 <script setup lang="ts">
-import hello from '@akashi/common'
 import { TestEmit } from '@akashi/app-vue'
-
-const ret: string = hello('akashi')
-// eslint-disable-next-line no-console
-console.log('ret:', ret)
 </script>
 
 <template>
