@@ -1,10 +1,16 @@
 <script setup lang="ts">
+import { defineAsyncComponent } from 'vue'
 import { TestEmit } from '@akashi/app-vue'
+
+const VueButton = defineAsyncComponent(() => import('@app-vue/Button'))
+const VueFooter = defineAsyncComponent(() => import('@app-vue/Footer'))
 </script>
 
 <template>
   base-layer
   <TestEmit foo="base" />
+  <VueButton />
+  <VueFooter />
 </template>
 
 <style>
