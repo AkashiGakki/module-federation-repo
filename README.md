@@ -9,7 +9,7 @@ pnpm i @antfu/ni
 ni
 
 # in base
-ni dev
+nr dev
 
 # in app-react
 nr build
