@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import federation from "@originjs/vite-plugin-federation"
+import federation from '@originjs/vite-plugin-federation'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,10 +13,10 @@ export default defineConfig({
         './Button': './src/components/Button.vue',
         './Footer': './src/components/Footer.vue',
       },
-      shared: ["vue"]
+      shared: ['vue'],
     }),
   ],
   build: {
-    target: 'esnext'
-  }
+    target: 'esnext',
+  },
 })

@@ -1,21 +1,20 @@
 <script setup lang="ts">
-import { defineProps, defineEmits, onMounted } from 'vue'
+import { defineEmits, defineProps, onMounted } from 'vue'
 
 const props = defineProps({
   foo: String,
 })
 
-console.log('foo:', props.foo)
-
 const emit = defineEmits(['change', 'delete'])
+
+console.log('foo:', props.foo)
 
 onMounted(() => emit('change', { test: 'emit' }))
 </script>
 
 <template>
-  <div></div>
+  <div />
 </template>
-
 
 <style scoped>
 </style>

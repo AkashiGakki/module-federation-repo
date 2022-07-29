@@ -1,14 +1,16 @@
-<template>
-  <div class="footer">
-    <div class="left">Copyright © 2022 All rights reserved.</div>
-  </div>
-</template>
-
 <script lang="ts">
 export default {
-  name: 'Footer'
+  name: 'Footer',
 }
 </script>
+
+<template>
+  <div class="footer">
+    <div class="left">
+      Copyright © 2022 All rights reserved.
+    </div>
+  </div>
+</template>
 
 <style scoped>
 .footer {
