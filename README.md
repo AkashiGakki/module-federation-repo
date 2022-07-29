@@ -10,6 +10,10 @@ npm i -g @antfu/ni
 # in base
 ni dev
 
+# in app-react
+nr build
+nr serve
+
 # in app-vue
 nr build
 nr serve
