@@ -5,7 +5,8 @@
 ## Usage
 
 ```shell
-npm i -g @antfu/ni
+pnpm i @antfu/ni
+ni
 
 # in base
 ni dev
