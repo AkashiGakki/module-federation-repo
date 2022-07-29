@@ -9,6 +9,7 @@ importers:
     specifiers:
       '@antfu/eslint-config': ^0.25.2
       '@iconify-json/carbon': ^1.1.7
+      '@originjs/vite-plugin-federation': ^1.1.7
       '@types/node': ^18.6.2
       '@types/react': ^18.0.15
       '@types/react-dom': ^18.0.6
@@ -29,6 +30,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config': 0.25.2_he2ccbldppg44uulnyq4rwocfa
       '@iconify-json/carbon': registry.npmmirror.com/@iconify-json/carbon/1.1.7
+      '@originjs/vite-plugin-federation': registry.npmmirror.com/@originjs/vite-plugin-federation/1.1.7
       '@types/node': registry.npmmirror.com/@types/node/18.6.2
       '@types/react': registry.npmmirror.com/@types/react/18.0.15
       '@types/react-dom': registry.npmmirror.com/@types/react-dom/18.0.6

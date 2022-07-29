@@ -10,13 +10,18 @@ export default defineConfig({
       name: "@base",
       filename: "bundle.js",
       remotes: {
+        "@app-react": {
+          external: "http://localhost:5174/assets/bundle.js",
+          format: 'esm',
+          from: 'vite'
+        },
         "@app-vue": {
           external: "http://localhost:5175/assets/bundle.js",
           format: 'esm',
           from: 'vite'
         },
       },
-      shared: ["vue", "vue-router", "element-plus", "vuex"]
+      shared: ["vue", "react", "react-dom"],
     }),
   ]
 })

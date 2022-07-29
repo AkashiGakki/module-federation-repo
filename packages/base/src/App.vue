@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { defineAsyncComponent } from 'vue'
 import { TestEmit } from '@akashi/app-vue'
+import Observer from '@app-react/Observer'
 
 const VueButton = defineAsyncComponent(() => import('@app-vue/Button'))
 const VueFooter = defineAsyncComponent(() => import('@app-vue/Footer'))
@@ -11,6 +12,7 @@ const VueFooter = defineAsyncComponent(() => import('@app-vue/Footer'))
   <TestEmit foo="base" />
   <VueButton />
   <VueFooter />
+  <Observer />
 </template>
 
 <style>
